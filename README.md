@@ -42,4 +42,23 @@ This page introduce about my app in 5 pages
 ![order](https://user-images.githubusercontent.com/68888169/173796573-5d59c83a-f011-4022-a508-1e22cd494e54.png)
 
 
-## 
+
+## Cart page
+
+![cart](https://user-images.githubusercontent.com/68888169/173798587-85171cfe-0956-4cd8-97bf-22c24f820311.png)
+
+
+
+## Account page
+
+![account](https://user-images.githubusercontent.com/68888169/173798938-f206a841-e53e-46ff-a69d-09656eea3dec.png)
+
+
+## Near by & Messenger page
+
+Near by - I didn't make it yet
+
+chatting page - null safety issue
+
+
+
