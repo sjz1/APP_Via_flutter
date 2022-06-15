@@ -12,6 +12,8 @@ In base of design, I refer to https://github.com/Tarikul711/flutter-food-deliver
 ## Login page
 you must support flutter 2.8 and connect firebase
 
+use SignInScreen Widget
+
 ![login](https://user-images.githubusercontent.com/68888169/173795225-1151a078-a0db-4a76-a9f4-1c4bd76202aa.png)
 
 
@@ -61,4 +63,18 @@ Near by - I didn't make it yet
 chatting page - null safety issue
 
 
+## Error & Solution
 
+### AndroidManifest.xml Error: user-sdk:minSdkVersion 16 cannot be smaller than version 19 declared in library [com.google.firebase:firebase-analytics::]
+go android/app/build.gradle and fixed
+
+- minSdkVersion 16 -> minSdkVersion 23
+
+or 
+
+- minSdkVersion flutter.minSdkVersion -> minSdkVersion 23
+
+### DexArchiveMergerException Error
+-  multiDexEnabled true
+
+-  implementation 'com.android.support:multidex:2.0.1'
