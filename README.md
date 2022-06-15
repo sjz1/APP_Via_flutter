@@ -78,3 +78,22 @@ or
 -  multiDexEnabled true
 
 -  implementation 'com.android.support:multidex:2.0.1'
+
+
+### Error: Cannot run with sound null safety, because the following dependencies don't support null safety:
+
+#### Solution 1: Run this command
+
+```flutter run --no-sound-null-safety```
+
+#### Solution 2: Setting For Android Studio
+
+To set this up in your IDE of choice, you can use “Edit Configurations” (in your run configurations) 
+→ “Additional run args” in IntelliJ and search for “Additional Args” (with “Dart”/”Flutter”) in your setting.
+
+Open Edit Configurations in Run.
+Select on Add Additional Run args.
+Just add –no-sound-null-safety there.
+Apply setting. Press Ok and rerun your app.
+
+reference : https://fluttercorner.com/cannot-run-with-sound-null-safety-because-dependencies-dont-support-null-safety/
