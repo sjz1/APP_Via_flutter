@@ -97,3 +97,7 @@ Just add –no-sound-null-safety there.
 Apply setting. Press Ok and rerun your app.
 
 reference : https://fluttercorner.com/cannot-run-with-sound-null-safety-because-dependencies-dont-support-null-safety/
+
+
+#### ERROR | Running multiple emulators with the same AVD ERROR |
+closing all AVD and restart
